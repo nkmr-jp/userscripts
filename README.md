@@ -8,7 +8,7 @@
 ## scripts
 
 <details>
-<summary>Github_code_transrate</summary>
+<summary>Github_code_translate_ignore</summary>
 
 Translates pages excluding code blocks.
 
