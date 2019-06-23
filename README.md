@@ -1,11 +1,11 @@
 # userscripts
 
-## usage
+## Usage
 
 1. Install Chrome Extention [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo.)
 2. Click scripts `install` link.
 
-## scripts
+## Scripts
 
 ### Github_code_translate_ignore
 
