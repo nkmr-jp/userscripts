@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Github code translate ignore
 // @namespace    https://github.com/nkmr-jp/userscripts
-// @version      0.1
+// @description  Translates pages excluding code blocks
 // @author       nkmr-jp
-// @include    https://github.com/*
+// @include      https://github.com/*
 // ==/UserScript==
 
 (function () {
