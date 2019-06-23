@@ -9,11 +9,10 @@
 
 ### Github_code_translate_ignore
 
-<details>
-
 Translates pages excluding code blocks.
-
 [install](https://github.com/nkmr-jp/userscripts/raw/master/Github_code_translate_ignore.user.js)
+
+<details>
 
 before
 ![screenshots](screenshots/190623224053.gif)
