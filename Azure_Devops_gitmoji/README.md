@@ -10,4 +10,4 @@ Display [gitmoji](https://gitmoji.carloscuesta.me/) (emoji) in Azure Devops Repo
 
 ↓↓↓
 
-![after](after.aftre)
+![after](after.png)
