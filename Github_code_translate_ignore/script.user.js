@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Github code translate ignore
 // @namespace    https://github.com/nkmr-jp/userscripts
-// @description  Translates pages excluding code blocks
+// @description  When translating pages with Google Translate, translate without code blocks.
 // @author       nkmr-jp
 // @include      https://github.com/*
 // ==/UserScript==
