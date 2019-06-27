@@ -4,6 +4,7 @@
 // @description  gitmoji
 // @author       nkmr-jp
 // @include      https://dev.azure.com/*
+// @include      https://*.visualstudio.com/*
 // ==/UserScript==
 
 const SELECTORS = ".change-comment, .change-link";
