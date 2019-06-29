@@ -1,4 +1,4 @@
-# Elasticsearch_Translate_excluding_code
+# Elasticsearch Translate excluding code
 
 Translate excluding code blocks when translating pages with Google Translate.
 
