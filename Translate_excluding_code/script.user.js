@@ -14,6 +14,6 @@
   for (let i = 0; i < preTags.length; i++) {
     const preTag = preTags[i];
     const html = preTag.innerHTML;
-    preTag.innerHTML = `<code style="padding:0">${html}</code>`;
+    preTag.innerHTML = `<code style="padding:0; margin: 0; background: inherit; display: inline;">${html}</code>`;
   }
 })();
