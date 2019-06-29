@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         Github Translate excluding code
+// @name         Elasticsearch_Translate_excluding_code
 // @namespace    https://github.com/nkmr-jp/userscripts
 // @description  Translate excluding code blocks when translating pages with Google Translate.
 // @author       nkmr-jp
 // @include      https://github.com/*
 // ==/UserScript==
 
-const SELECTORS = '.highlight pre, td .css-truncate .js-navigation-open';
+const SELECTORS = '.pre_wrapper pre, .console_widget a.sense_widget';
 
 (function () {
   'use strict';
