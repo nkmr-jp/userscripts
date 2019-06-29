@@ -3,7 +3,7 @@
 // @namespace    https://github.com/nkmr-jp/userscripts
 // @description  Translate excluding code blocks when translating pages with Google Translate.
 // @author       nkmr-jp
-// @include      https://github.com/*
+// @include      https://www.elastic.co/*
 // ==/UserScript==
 
 const SELECTORS = '.pre_wrapper pre, .console_widget a.sense_widget';

@@ -6,7 +6,7 @@
 // @include      https://github.com/*
 // ==/UserScript==
 
-const SELECTORS = '.highlight pre, td .css-truncate .js-navigation-open';
+const SELECTORS = '.highlight pre';
 
 (function () {
   'use strict';
