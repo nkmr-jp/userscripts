@@ -10,10 +10,10 @@
 
 (function () {
   'use strict';
-  const targets = document.querySelectorAll('pre');
-  for (let i = 0; i < targets.length; i++) {
-    const target = targets[i];
-    const org_html = target.innerHTML;
-    target.innerHTML = `<code style="padding:0">${org_html}</code>`;
+  const preTags = document.querySelectorAll('pre');
+  for (let i = 0; i < preTags.length; i++) {
+    const preTag = preTags[i];
+    const html = preTag.innerHTML;
+    preTag.innerHTML = `<code style="padding:0">${html}</code>`;
   }
 })();
