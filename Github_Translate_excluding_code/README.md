@@ -1,4 +1,4 @@
-# Github code translate ignore
+# Github_Translate_excluding_code
 
 Translate excluding code blocks when translating pages with Google Translate.
 
