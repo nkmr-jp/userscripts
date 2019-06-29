@@ -8,12 +8,15 @@
 // @include      https://medium.com/*
 // ==/UserScript==
 
+const style = "padding:0; margin: 0; background: inherit; display: inherit; white-space: inherit; font-size: inherit;";
+
 (function () {
   'use strict';
   const preTags = document.querySelectorAll('pre');
   for (let i = 0; i < preTags.length; i++) {
     const preTag = preTags[i];
     const html = preTag.innerHTML;
-    preTag.innerHTML = `<code style="padding:0; margin: 0; background: inherit; display: inline;">${html}</code>`;
+    preTag.innerHTML = `<code style="${style}">${html}</code>`;
   }
 })();
+
