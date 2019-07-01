@@ -12,8 +12,11 @@ The following is the Variables section of the README page of the airbnb JavaScri
 
 [GitHub - airbnb/javascript: JavaScript Style Guide #variables](https://github.com/airbnb/javascript#variables)
 
+
+Before
 ![before](before.png)
 
 ↓↓↓
 
+After
 ![after](after.png)
