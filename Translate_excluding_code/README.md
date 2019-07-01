@@ -6,8 +6,8 @@ Translate excluding code blocks when translating pages with Google Translate.
 2. [Install](https://github.com/nkmr-jp/userscripts/raw/master/Translate_excluding_code/script.user.js). 
 
 
-![before](before.gif)
+![before](before.png)
 
 ↓↓↓
 
-![after](after.gif)
+![after](after.png)
