@@ -12,16 +12,6 @@ const SELECTORS = ".change-comment, .change-link";
 (function () {
   'use strict';
   runConvert()
-
-  history.pushState = () => {
-    runConvert()
-  };
-  window.onpopstate = () => {
-    runConvert()
-  }
-  window.onhashchange = () => {
-    runConvert()
-  };
 })();
 
 function runConvert() {
