@@ -12,7 +12,7 @@ const style = "padding:0; margin: 0; background: inherit; display: inherit; whit
 
 (function () {
   'use strict';
-  const preTags = document.querySelectorAll('pre');
+  const preTags = document.querySelectorAll('pre, td.blob-code-inner');
   for (let i = 0; i < preTags.length; i++) {
     const preTag = preTags[i];
     const html = preTag.innerHTML;
