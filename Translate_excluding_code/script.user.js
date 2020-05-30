@@ -8,15 +8,11 @@
 // @include      https://medium.com/*
 // ==/UserScript==
 
-const style = "padding:0; margin: 0; background: inherit; display: inherit; white-space: inherit; font-size: inherit;";
-
 (function () {
   'use strict';
-  const preTags = document.querySelectorAll('pre, td.blob-code-inner');
-  for (let i = 0; i < preTags.length; i++) {
-    const preTag = preTags[i];
-    const html = preTag.innerHTML;
-    preTag.innerHTML = `<code style="${style}">${html}</code>`;
-  }
+    const github = ', table.js-file-line-container, table.js-diff-table'
+    const excludes = document.querySelectorAll('pre' + github);
+    for (let i = 0; i < excludes.length; i++) {
+        excludes[i].classList.add("notranslate");
+    }
 })();
-
