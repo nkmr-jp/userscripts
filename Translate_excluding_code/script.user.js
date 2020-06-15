@@ -7,6 +7,8 @@
 // @include      https://www.elastic.co/*
 // @include      https://medium.com/*
 // @include      https://en.wikipedia.org/*
+// @include      https://pkg.go.dev/*
+// @include      https://godoc.org/*
 // ==/UserScript==
 
 (function () {
