@@ -6,6 +6,7 @@
 // @include      https://github.com/*
 // @include      https://www.elastic.co/*
 // @include      https://medium.com/*
+// @include      https://en.wikipedia.org/*
 // ==/UserScript==
 
 (function () {
