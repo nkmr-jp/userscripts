@@ -9,8 +9,7 @@
 // @include      https://en.wikipedia.org/*
 // @include      https://pkg.go.dev/*
 // @include      https://godoc.org/*
-// @include      https://*.github.io/*
-// @include      http://*.github.io/*
+// @include      http://jmoiron.github.io/*
 // ==/UserScript==
 
 (function () {
