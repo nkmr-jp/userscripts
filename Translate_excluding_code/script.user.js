@@ -10,6 +10,7 @@
 // @include      https://pkg.go.dev/*
 // @include      https://godoc.org/*
 // @include      https://*.github.io/*
+// @include      http://*.github.io/*
 // ==/UserScript==
 
 (function () {
