@@ -11,6 +11,7 @@
 // @include      https://godoc.org/*
 // @include      https://*.github.io/*
 // @include      http://*.github.io/*
+// @include      https://openapi-generator.tech/*
 // ==/UserScript==
 
 (function () {
