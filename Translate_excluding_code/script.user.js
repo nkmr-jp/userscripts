@@ -18,7 +18,8 @@
 (function () {
   'use strict';
     const github = ', table.js-file-line-container, table.js-diff-table'
-    const excludes = document.querySelectorAll('pre' + github);
+    const deepl=', div.odebox-module--container--3Sp8x'
+    const excludes = document.querySelectorAll('pre' + github + deepl);
     for (let i = 0; i < excludes.length; i++) {
         excludes[i].classList.add("notranslate");
     }
