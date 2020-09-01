@@ -12,6 +12,7 @@
 // @include      https://*.github.io/*
 // @include      http://*.github.io/*
 // @include      https://openapi-generator.tech/*
+// @include      https://interledger.org/*
 // @include      https://www.deepl.com/*
 // @include      https://docs.rs/*
 // ==/UserScript==
