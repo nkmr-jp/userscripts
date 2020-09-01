@@ -13,6 +13,7 @@
 // @include      http://*.github.io/*
 // @include      https://openapi-generator.tech/*
 // @include      https://www.deepl.com/*
+// @include      https://docs.rs/*
 // ==/UserScript==
 
 (function () {
