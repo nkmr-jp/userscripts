@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate excluding code
-// @version      0.3
+// @version      0.4
 // @namespace    https://github.com/nkmr-jp/userscripts
 // @description  Translate excluding code blocks when translating pages with Google Translate.
 // @author       nkmr-jp
@@ -17,6 +17,8 @@
 // @include      https://www.deepl.com/*
 // @include      https://docs.rs/*
 // @include      https://www.autohotkey.com/*
+// @include      https://openapi-generator.tech/*
+// @include      https://gorm.io/*
 // ==/UserScript==
 
 (function () {
