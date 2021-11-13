@@ -19,12 +19,15 @@
 // @include      https://www.autohotkey.com/*
 // @include      https://openapi-generator.tech/*
 // @include      https://gorm.io/*
+// @include      https://docs.cryptowat.ch/*
+// @include      https://*.qwiklabs.com/*
 // ==/UserScript==
 
 (function () {
   'use strict';
     const github = ', table.js-file-line-container, table.js-diff-table'
-    const excludes = document.querySelectorAll('pre' + github);
+    const qwiklabs = ', ql-code-block'
+    const excludes = document.querySelectorAll('pre' + github + qwiklabs);
     for (let i = 0; i < excludes.length; i++) {
         excludes[i].classList.add("notranslate");
     }
