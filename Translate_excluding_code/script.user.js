@@ -1,28 +1,28 @@
 // ==UserScript==
 // @name         Translate excluding code
-// @version      0.7
+// @version      0.8
 // @namespace    https://github.com/nkmr-jp/userscripts
 // @description  Translate excluding code blocks when translating pages with Google Translate.
 // @author       nkmr-jp
-// @include      https://github.com/*
-// @include      https://www.elastic.co/*
-// @include      https://medium.com/*
-// @include      https://en.wikipedia.org/*
-// @include      https://pkg.go.dev/*
-// @include      https://godoc.org/*
-// @include      https://*.github.io/*
-// @include      http://*.github.io/*
-// @include      https://openapi-generator.tech/*
-// @include      https://interledger.org/*
-// @include      https://www.deepl.com/*
-// @include      https://docs.rs/*
-// @include      https://www.autohotkey.com/*
-// @include      https://openapi-generator.tech/*
-// @include      https://gorm.io/*
-// @include      https://docs.cryptowat.ch/*
-// @include      https://*.qwiklabs.com/*
-// @include      https://gobyexample.com/*
-// @include      https:/*.gitbook.io/*
+// @match        https://github.com/*
+// @match        https://www.elastic.co/*
+// @match        https://medium.com/*
+// @match        https://en.wikipedia.org/*
+// @match        https://pkg.go.dev/*
+// @match        https://godoc.org/*
+// @match        https://*.github.io/*
+// @match        http://*.github.io/*
+// @match        https://openapi-generator.tech/*
+// @match        https://interledger.org/*
+// @match        https://www.deepl.com/*
+// @match        https://docs.rs/*
+// @match        https://www.autohotkey.com/*
+// @match        https://openapi-generator.tech/*
+// @match        https://gorm.io/*
+// @match        https://docs.cryptowat.ch/*
+// @match        https://*.qwiklabs.com/*
+// @match        https://gobyexample.com/*
+// @match        https:/*.gitbook.io/*
 // ==/UserScript==
 
 (function () {
