@@ -22,7 +22,7 @@
 // @match        https://docs.cryptowat.ch/*
 // @match        https://*.qwiklabs.com/*
 // @match        https://gobyexample.com/*
-// @match        https:/*.gitbook.io/*
+// @match        https://*.gitbook.io/*
 // ==/UserScript==
 
 (function () {
