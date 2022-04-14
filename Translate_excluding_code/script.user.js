@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate excluding code
-// @version      0.6
+// @version      0.7
 // @namespace    https://github.com/nkmr-jp/userscripts
 // @description  Translate excluding code blocks when translating pages with Google Translate.
 // @author       nkmr-jp
@@ -22,6 +22,7 @@
 // @include      https://docs.cryptowat.ch/*
 // @include      https://*.qwiklabs.com/*
 // @include      https://gobyexample.com/*
+// @include      https:/*.gitbook.io/*
 // ==/UserScript==
 
 (function () {
