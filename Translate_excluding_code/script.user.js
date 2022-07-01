@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate excluding code
-// @version      0.8
+// @version      0.9
 // @namespace    https://github.com/nkmr-jp/userscripts
 // @description  Translate excluding code blocks when translating pages with Google Translate.
 // @author       nkmr-jp
@@ -9,6 +9,7 @@
 // @match        https://medium.com/*
 // @match        https://en.wikipedia.org/*
 // @match        https://pkg.go.dev/*
+// @match        https://go.dev/*
 // @match        https://godoc.org/*
 // @match        https://*.github.io/*
 // @match        http://*.github.io/*
