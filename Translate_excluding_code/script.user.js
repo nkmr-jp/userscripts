@@ -27,6 +27,8 @@
 // @match        https://cloud.google.com/*
 // @match        https://www.npmjs.com/*
 // @match        https://docs.npmjs.com/*
+// @match        https://*.terraform.io/*
+// @match        https://*.hashicorp.com/*
 // ==/UserScript==
 
 (function () {
