@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate excluding code
-// @version      0.12
+// @version      0.13
 // @namespace    https://github.com/nkmr-jp/userscripts
 // @description  Translate excluding code blocks when translating pages with Google Translate.
 // @author       nkmr-jp
@@ -34,10 +34,13 @@
 
 (function () {
   'use strict';
+  function replace() {
     const github = ', table.js-file-line-container, table.js-diff-table'
     const qwiklabs = ', ql-code-block'
     const excludes = document.querySelectorAll('pre' + github + qwiklabs);
     for (let i = 0; i < excludes.length; i++) {
-        excludes[i].classList.add("notranslate");
+      excludes[i].classList.add("notranslate");
     }
+  }
+  setTimeout(replace, 1000);
 })();
