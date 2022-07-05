@@ -29,6 +29,7 @@
 // @match        https://docs.npmjs.com/*
 // @match        https://*.terraform.io/*
 // @match        https://*.hashicorp.com/*
+// @match        https://*.gruntwork.io/*
 // ==/UserScript==
 
 (function () {
