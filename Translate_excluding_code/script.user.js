@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate excluding code
-// @version      0.14
+// @version      0.15
 // @namespace    https://github.com/nkmr-jp/userscripts
 // @description  Translate excluding code blocks when translating pages with Google Translate.
 // @author       nkmr-jp
@@ -30,6 +30,7 @@
 // @match        https://*.terraform.io/*
 // @match        https://*.hashicorp.com/*
 // @match        https://*.gruntwork.io/*
+// @match        https://stackoverflow.com/*
 // ==/UserScript==
 
 (function () {
